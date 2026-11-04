@@ -23,10 +23,7 @@ public class Die {
         random = new Random();
         value = random.nextInt(numberOfSides) + 1;
         System.out.println("The value of the die is: " + value);
-    }
-
-    public static void main(String[] args) {
-        roll();
 
     }
+
 }
