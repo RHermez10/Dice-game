@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class Die {
-    private static int value;
-    private static int numberOfSides = 6;
-    private static Random random;
+    private int value;
+    private int numberOfSides;
+    private static Random random = new Random();
 
     // constructor
     public Die(int numberOfSides) {
@@ -19,11 +19,8 @@ public class Die {
         return value;
     }
 
-    public static void roll() {
-        random = new Random();
+    public void roll() {
         value = random.nextInt(numberOfSides) + 1;
-        System.out.println("The value of the die is: " + value);
-
     }
 
 }

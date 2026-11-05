@@ -1,6 +1,6 @@
 public class Player {
-    private static String name;
-    private static int points;
+    private String name;
+    private int points;
     private Die die;
 
     public Player(String name) {
@@ -15,7 +15,7 @@ public class Player {
         return points;
     }
 
-    public void setPoint(int points) {
+    public void setPoints(int points) {
         this.points = points;
     }
 
@@ -28,12 +28,15 @@ public class Player {
     // Returnerar värdet på spelarens tärning som ett heltal.
     public int getDieValue() {
         return die.getValue();
-
     }
 
     // Ökar spelarens poäng med ett.
     public void increaseScore() {
         points++;
+    }
+
+    public void addDie(int numberOfSides) {
+        die = new Die(numberOfSides);
     }
 
 }
