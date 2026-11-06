@@ -5,12 +5,10 @@ public class Die {
     private int numberOfSides;
     private static Random random = new Random();
 
-    // constructor
     public Die(int numberOfSides) {
         this.numberOfSides = numberOfSides;
     }
 
-    // getter Method
     public int getNumberOfSides() {
         return numberOfSides;
     }
@@ -19,6 +17,7 @@ public class Die {
         return value;
     }
 
+    // Slår tärningen och ger ett slumpmässigt värde.
     public void roll() {
         value = random.nextInt(numberOfSides) + 1;
     }

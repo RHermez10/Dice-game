@@ -22,19 +22,19 @@ public class Player {
     // Rullar spelarens tärning.
     public void rollDice() {
         die.roll();
-
     }
 
-    // Returnerar värdet på spelarens tärning som ett heltal.
+    // Returnerar tärningens värde.
     public int getDieValue() {
         return die.getValue();
     }
 
     // Ökar spelarens poäng med ett.
     public void increaseScore() {
-        points++;
+        setPoints(getPoints() + 1);
     }
 
+    // Skapar en ny tärning till spelaren.
     public void addDie(int numberOfSides) {
         die = new Die(numberOfSides);
     }
