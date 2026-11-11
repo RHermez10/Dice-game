@@ -19,6 +19,11 @@ public class Player {
         this.points = points;
     }
 
+    // Returnerar number of sides som tärningen har.
+    public int getNumberOfSidesValue() {
+        return die.getNumberOfSides();
+    }
+
     // Rullar spelarens tärning.
     public void rollDice() {
         die.roll();
