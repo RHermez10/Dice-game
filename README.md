@@ -3,23 +3,21 @@
 
 **Grupp 3**
 
+Link till Git repository https://github.com/RHermez10/Dice-game
+
 ## Om projektet
 
 Vi har skapat ett enkelt tärningsspel i Java som körs i terminalen. Spelaren väljer antal sidor på tärningen och antal rundor. I varje runda får spelaren gissa ett nummer och får en poäng vid rätt gissning.
 
 ## Starta spelet
 
-För att köra programmet behöver du ha Java JDK installerat.
+- Öppna projektet i Visual Studio Code (VS Code). 
 
-1. Öppna projektet i Visual Studio Code eller en terminal.
-2. Gå till mappen där Java-filerna finns.
-3. Kompilera filerna:
+- Klicka på knappen Run Java i VS Code, eller öppna terminalen och skriv java DiceGame.java för att starta spelet.  
 
-`javac Die.java Player.java DiceGame.java`
+- Ange ditt namn, välj antal sidor på tärningen och bestäm hur många omgångar du vill spela. 
 
-4. Starta spelet:
 
-`java DiceGame`
 
 ## Projektets filer
 
