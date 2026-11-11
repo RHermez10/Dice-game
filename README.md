@@ -3,6 +3,7 @@
 
 **Grupp 3**
 
+Link till Git repositroy https://github.com/RHermez10/Dice-game .
 ## Om projektet
 
 Vi har skapat ett enkelt tärningsspel i Java som körs i terminalen. Spelaren väljer antal sidor på tärningen och antal rundor. I varje runda får spelaren gissa ett nummer och får en poäng vid rätt gissning.
